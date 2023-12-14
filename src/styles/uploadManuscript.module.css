@@ -1,0 +1,118 @@
+.container{
+    margin: 1.3rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.header{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    
+}
+.upload {
+    width: 85%;
+    /* height: 10rem; */
+    /*display: flex;
+    align-items: center;
+    justify-content: center; */
+    margin-top: 3rem;
+    margin-bottom: 1rem;
+    border: #051D59 dashed;
+    background-color: #F5F5F5 !important;
+    /* background-color : grey !important; */
+}
+.headerText{
+    text-align: left;
+    font-weight: 700;
+    font-size: 1.3rem;
+}
+
+.headerIcon{
+    cursor: pointer;
+    width: 1.3rem !important;
+    height: 1.3rem !important;
+}
+
+
+
+.buttonWrapper{
+    width: 100%;
+    display: flex;
+    justify-content: flex-end;
+}
+
+.proceedButton{
+    margin-top: 1.5rem !important;
+    border-radius: 0.5rem !important;
+    text-transform: none !important;
+    box-shadow: none !important;
+    background-color: #1C4EFE !important;
+    width: 30%;
+}
+
+@media (min-width: 545px) {
+    .container{
+        margin: 1.5rem;
+    }
+    .headerText{
+        font-size: 1.6rem;
+    }    
+    .headerIcon{
+        width: 1.6rem !important;
+        height: 1.6rem !important;
+    } 
+}
+
+@media (min-width: 630px) {
+    .container{
+        margin: 1.8rem;
+    }
+    .headerText{
+        font-size: 1.8rem;
+    }    
+    .headerIcon{
+        width: 1.8rem !important;
+        height: 1.8rem !important;
+    } 
+    .proceedButton{
+        font-size: 1rem !important;
+    }   
+}
+
+@media (min-width: 900px) {
+    .container{
+        margin: 2rem;
+    }
+    .headerText{
+        font-size: 2rem;
+    }    
+    .headerIcon{
+        width: 2rem !important;
+        height: 2rem !important;
+    }    
+    .proceedButton{
+        font-size: 1rem !important;
+        width: 25%;
+    }
+}
+
+@media (min-width: 1150px) {
+    .container{
+        margin: 2.2rem;
+    }
+    .headerText{
+        font-size: 2.2rem;
+    }    
+    .headerIcon{
+        width: 2.2rem !important;
+        height: 2.2rem !important;
+    }    
+    .proceedButton{
+        font-size: 1rem !important;
+        width: 20%;
+    }
+}

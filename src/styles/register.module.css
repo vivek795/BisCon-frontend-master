@@ -1,0 +1,14 @@
+.modalBox{
+    width: 85% !important;
+}
+
+.secondBoxButton{
+    /* margin-top: 1.2rem !important; */
+    border-radius: 0.5rem !important;
+    font-size: 0.8rem !important;
+    text-transform: none !important;
+    box-shadow: none !important;
+    background-color: #1C4EFE !important;
+    padding: 1rem !important;
+    width: 100%;
+}
